@@ -44,7 +44,7 @@ bun run dev -- --turbo
 
 # Test in browser
 
-## SQLite test page: [http://localhost:3000/sqlite]
+## SQLite test page: [http://localhost:3000/sqlite](http://localhost:3000/sqlite)
 
 Using webpack, SQLite loads in the browser, though we don't have a server in order to make reproduction easier.
 ![SQLite succeeding in NextJS webpack](<public/Screenshot 2024-05-20 at 4.44.20 PM.png>)
@@ -52,7 +52,7 @@ Using webpack, SQLite loads in the browser, though we don't have a server in ord
 With Turbopack it is not bundling properly.
 ![SQLite failing in NextJS Turbopack](<public/Screenshot 2024-05-20 at 4.40.52 PM.png>)
 
-## PGLite test page: [http://localhost:3000/pglite]
+## PGLite test page: [http://localhost:3000/pglite](http://localhost:3000/pglite)
 
 Using webpack, PGLIte is not bunding properly.
 ![PGLIte failing in NextJS webpack](<public/Screenshot 2024-05-20 at 4.46.43 PM.png>)
