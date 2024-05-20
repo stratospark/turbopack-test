@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    experimental: {
+        turbo: {
+            // resolveAlias: {
+            //     'fs': 'empty',
+            // },
+        },
+        }
+};
 
 export default nextConfig;
